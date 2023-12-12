@@ -5,7 +5,7 @@ mongoose.connect(url,{useNewUrlParser:true,useUnifiedTopology:true})
         .then(()=>{
             console.log("Connected to Db")
     
-            let newdata=new loginModel({id:100,Name:"Rahul inserted by mongoose"})
+            let newdata=new loginModel({id:100,Name:"KY inserted by mongoose"})
     
             loginModel.insertMany(newdata)
                         .then((data)=>{

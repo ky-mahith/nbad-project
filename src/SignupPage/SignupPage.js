@@ -25,7 +25,7 @@ function SignupPage() {
     e.preventDefault();
 
     axios
-    .post('http://142.93.116.20:3002/Signup', formData)
+    .post('http://167.71.84.130:3002/Signup', formData)
     .then((response) => {
       setSuccessMessage(response.data.message);
       setError('');

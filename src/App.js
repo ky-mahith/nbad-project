@@ -64,7 +64,7 @@ const handleRefresh = () => {
     console.log("CHEDKING222", newExpirationTime, Date.now());
     const remainingTime = newExpirationTime - Date.now();
    
-    axios.post(`http://142.93.116.20:3002/refresh-token/${userId}`)
+    axios.post(`http://167.71.84.130:3002/refresh-token/${userId}`)
     .then((res)=>{
       const newtoken=res.data.token
       console.log(newtoken)

@@ -1,0 +1,53 @@
+/* Main container for the page */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f4f4f4;
+  min-height: 100vh;
+}
+
+/* Style for the chart container */
+.chart-container {
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for individual chart articles */
+.chart {
+  margin-bottom: 20px;
+  
+  h1 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  canvas {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Style for select element */
+label, select {
+  display: block;
+  margin-bottom: 10px;
+  color: #555;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+select {
+  cursor: pointer;
+}
